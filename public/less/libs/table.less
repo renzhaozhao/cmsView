@@ -1,0 +1,36 @@
+@import "config.less";
+
+.pure-table{
+    width: 100%;
+    color: @font-color;
+    border: none;
+
+    & > thead{
+        color: inherit;
+        background-color: darken(@snow, 1);
+
+        th{
+            border-left-width: 0;
+            text-align: center;
+        }
+    }
+
+    & > tbody{
+        tr{
+            border-bottom: 1px solid @el-border-color;
+
+            &:last-child{
+                border-bottom-width: 0;
+            }
+
+            td{
+                border-left-width: 0;
+                text-align: center;
+                padding: 1em;
+                &:first-child{
+                    width: 10em;
+                }
+            }
+        }
+    }
+}

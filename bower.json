@@ -1,0 +1,25 @@
+{
+  "name": "cms",
+  "description": "a simple cms system",
+  "main": "index.html",
+  "authors": [
+    "renzhao"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "cms"
+  ],
+  "homepage": "https://github.com/renzhaozhao/cmsExpress",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.8",
+    "bootstrap": "~3.3.6"
+  }
+}

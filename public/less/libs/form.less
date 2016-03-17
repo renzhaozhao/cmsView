@@ -1,0 +1,112 @@
+@import "config.less";
+
+.pure-form{
+    @inline-margin-left: 11.3em;
+
+    input[type="text"],
+    input[type="number"],
+    input[type="tel"],
+    input[type="email"],
+    input[type="password"]{
+        border: @el-border-width solid @el-border-color;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    select{
+        width: 12em;
+        padding: 0 .5em;
+    }
+
+    .static-text{
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .pure-control-group{
+        margin-bottom: 1em;
+
+        label{
+            width: 7em;
+        }
+        img{
+            cursor: pointer;
+        }
+    }
+
+    .control-helps{
+        margin: 0 0 0 @inline-margin-left;
+    }
+
+    .pure-controls{
+        margin-left: @inline-margin-left;
+    }
+
+    .icon-input{
+        background-color: @snow;
+        border-radius: 5px;
+
+        & > i{
+            display: inline-block;
+            vertical-align: middle;
+            width: 40px;
+            height: 30px;
+            border-right: 2px solid @el-border-color;
+            text-align: center;
+        }
+
+        & > label{
+            padding: 0em;
+            vertical-align: middle;
+            text-align: left;
+            width: 5em;
+            padding-left: 1em;
+        }
+        
+        & >select{
+            border: none;
+            box-shadow: none;
+            background: none;
+            width: 58%;
+            padding: 0 .3em;
+        }
+
+        & > input{
+            border: none;
+            box-shadow: none;
+            display: inline-block;
+            background-color: @snow;
+            padding: .8em;
+        }
+    }
+
+    .verifytel-box{
+        display: inline-block;
+        vertical-align: middle;
+
+        & > input{
+            width: 7em;
+        }
+
+        & > .pure-button{
+
+        }
+    }
+
+    .verifyimg-box{
+        display: inline-block;
+        vertical-align: middle;
+
+        & > input{
+            width: 7em;
+        }
+
+        & > img{
+            width: 6em;
+            height: 2.3em;
+            display: inline-block;
+            vertical-align: middle;
+            cursor: pointer;
+        }
+    }
+}

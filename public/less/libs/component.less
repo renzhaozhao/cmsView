@@ -1,0 +1,53 @@
+@import "config.less";
+
+//tab页
+.tabs{
+    margin-bottom: 2em;
+    .tabsbar{
+        z-index: 9;
+        & > a{
+            padding: .5em 1em;
+            background-color: @dark-green;
+            border: 1px solid @green;
+            display: inline-block;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+
+            &.active{
+                border-bottom-color: @dark-green;
+            }
+        }
+    }
+    .content{
+        border-radius: 5px;
+        border-top-left-radius: 0;
+        padding: 1em;
+        background-color: @dark-green;
+        border: 1px solid @green;
+        margin-top: -1px;
+        z-index: 1;
+    }
+}
+
+/** 进度条 */
+.progress{
+    min-height: 1em;
+    border-radius: 0;
+    position: relative;
+    background-color: @snow;
+
+    .bar{
+        background-color: @orange;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+    }
+
+    &.inline{
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
+
