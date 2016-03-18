@@ -27,5 +27,7 @@ angular.module('app', [
         templateUrl: 'views/add.html'
     })
 
-    .otherwise({edirectTo: '/'});
+    .otherwise({
+        edirectTo: '/'
+    });
 });
