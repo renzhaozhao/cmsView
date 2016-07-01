@@ -1,35 +1,26 @@
 {
-  "name": "renzhao",
+  "name": "my-crawler",
   "version": "1.0.0",
-  "description": "cms系统前端",
+  "description": "my-crawler",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/renzhaozhao/cmsView.git"
+    "url": "git+https://github.com/renzhaozhao/my-crawler.git"
   },
   "author": "renzhao",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/renzhaozhao/cmsView/issues"
+    "url": "https://github.com/renzhaozhao/my-crawler/issues"
   },
-  "homepage": "https://github.com/renzhaozhao/cmsView#readme",
+  "homepage": "https://github.com/renzhaozhao/my-crawler#readme",
   "dependencies": {
-    "express": "^4.13.4"
-  },
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.0",
-    "gulp-clone": "^1.0.0",
-    "gulp-less": "^3.0.5",
-    "gulp-minify-css": "^1.2.3",
-    "gulp-plumber": "^1.0.1",
-    "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^1.5.1",
-    "gulp-util": "^3.0.7",
-    "gulp-watch": "^4.3.5",
-    "through2": "^2.0.0"
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.20.0",
+    "express": "^4.14.0",
+    "request": "^2.72.0",
+    "utility": "^1.8.0"
   }
 }
